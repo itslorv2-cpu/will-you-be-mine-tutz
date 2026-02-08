@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: "Can I like you, Tutz?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you, A loooot! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do I love you?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,14 +42,14 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOOOOW You love me that much?? 🥰🥹🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "I love you even after my heart stops! 🥰🥹🚀💝",  // Shows when they go past 5000%
+        high: "To Detroit to Dallas, Dallas to Detroit 🚀💝",              // Shows when they go past 1000%
+        normal: "From me to you! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
+        title: "LET'S GOOOO I LOVE YOU BABYGIRL! 🎉💝💖💝💓",
         message: "As the year begins, the feelings haven't aged at all. As love approaches, affection has arrived. To my beautiful Queen, you are my everything. To be your valentine would be an honor, I hope to get this to you in the sweetest fashion. I don't always say it out loud, but I really like the way we exist together. The small moments, the comfortable silences. There's a day coming up that's supposed to be about company, intention, and choosing someone. No pressure, no expectations Just us, doing whatever feels like us. Either way, I'm really glad you're in my life. I love how easy we are. The laughs, the looks, the moments that don't need explaining.You make ordinary time feel intentional. I love you always my babygirl, my favorite person, my love 😘 !",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
